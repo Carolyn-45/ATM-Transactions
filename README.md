@@ -9,17 +9,9 @@ This project explores customer transactions behavior to optimize ATM operations.
 
 Join me in harnessing the power of data to revolutionize ATM efficiency and convenience.
 
-#### _Tools Used_
-1. SQL; Postgres16
-2. Microsoft Power BI
-
-#### _Data Source_
-The dataset used in this project was provided by the DataKliq team. 
-
-This dataset comprises of a Transactions Table that contains transactions for five states of Nigeria. In addition, the dataset also contains Customer, Transaction type, Hour, Calendar, ATM Location and ATM Maintenance tables that provide more information on the Transactions Table.
-
 #### _Problem Statement_
 ATM operations lack the strategic utilization of customer transaction data, resulting in sub-optimal resource allocation, extended queues, and inefficient service delivery. 
+
 In this  project I intend to answer the following questions;
 + What is the total number of transactions
 + What is the distribution of transaction types
@@ -31,6 +23,20 @@ In this  project I intend to answer the following questions;
 + Which is the most common transaction type for each customer segment
 + How does transaction frequency compare to the transaction revenue generated in the 5 states
 + Which ATMs have the highest and lowest utilization
+
+#### _Tools Used_
+1. SQL; Postgres16
+2. Microsoft Power BI
+
+#### _Data Collection_
+The dataset I used in this project was provided by the DataKliq team. 
+
+This dataset comprises of a Transactions Table that contains transactions for five states of Nigeria. In addition, the dataset also contains Customer, Transaction type, Hour, Calendar, ATM Location and ATM Maintenance tables that provide more information on the Transactions Table.
+
+#### _Data Cleaning and Transformation_
+Data cleaning and transformation are an important aspect of Data Analysis as it ensures accuracy and credibility of the insights generated from the data.
+For this, I first created a database in Postgres16 to host the various tables. I then examined each table for null values and errors. I noticed that some columns in the ATM Maintenance table had null values and I had to replace them with 'N/A' so as not to affect the integrity  of the data.
+I then performed data transformation tasks such as defining the data types for each column, appending the transformation data and creating a calendar table.
 
 
 
