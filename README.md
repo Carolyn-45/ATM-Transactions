@@ -9,6 +9,15 @@ This project explores customer transactions behavior to optimize ATM operations.
 
 Join me in harnessing the power of data to revolutionize ATM efficiency and convenience.
 
+#### _Tools Used_
+1. SQL; Postgres16
+2. Microsoft Power BI
+
+#### _Data Source_
+The dataset used in this project was provided by the DataKliq team. 
+
+This dataset comprises of a Transactions Table that contains transactions for five states of Nigeria. In addition, the dataset also contains Customer, Transaction type, Hour, Calendar, ATM Location and ATM Maintenance tables that provide more information on the Transactions Table.
+
 #### _Problem Statement_
 ATM operations lack the strategic utilization of customer transaction data, resulting in sub-optimal resource allocation, extended queues, and inefficient service delivery. 
 In this  project I intend to answer the following questions;
