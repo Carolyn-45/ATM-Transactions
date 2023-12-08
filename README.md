@@ -2,7 +2,7 @@
 
 ### Customer Transactions Behaviour for ATM Optimization
 -------
-![](atm)
+![](atm-1524870_1280.jpg)
 
 #### _Introduction_
 In an era where digital transactions are widespread, understanding and optimizing customer behavior at ATMs is paramount.
@@ -39,13 +39,16 @@ This dataset comprises of a Transactions Table that contains transactions for fi
 Data cleaning and transformation are an important aspect of Data Analysis as it ensures accuracy and credibility of the insights generated from the data.
 For this, I first created a database in Postgres16 to host the various tables. I then examined each table for null values and errors. I noticed that some columns in the ATM Maintenance table had null values and I had to replace them with 'N/A' so as not to affect the integrity  of the data.
 I then performed data transformation tasks such as defining the data types for each column, appending the transformation data and creating a calendar table.
+![](calendartable.jpg)
 
 #### _Data Modelling_
 After this I made use of the import storage mode to bring the dataset into Power BI. I proceeded to establish relationships between the tables. I created a snowflake schema as shown below;
+![](data_model.png)
 
 
 #### _Key Findings_
 I took a deep dive into the data and uncovered the following interesting insights;
+![](atm_transactions.png)| ![](customer_transactions.png)
 1. The total number of transactions for all the 5 states is 6.52M with Lagos leading with 2.59M and the least being from Federal City 
    Territory with 537,950 transactions.
 2. 71.4% of the transactions are performed on weekdays while 28.6% are performed on weekends.
