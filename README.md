@@ -11,6 +11,14 @@ This project explores customer transactions behavior to optimize ATM operations.
 
 Join me in harnessing the power of data to revolutionize ATM efficiency and convenience.
 
+#### _Target Audience_
+This project is tailored to those seeking data-driven insights to enhance user experiences, streamline operations, and strategically allocate resources for improved efficiency.
+This includes;
++ **Branch Managers**: Responsible for optimizing ATM services at specific locations.
++ **Data Analysts in Finance**: Utilizing transaction data to derive actionable insights.
++ **Executive Decision-makers**: Guiding strategic resource allocation based on data-driven recommendations.
+
+
 #### _Problem Statement_
 ATM operations lack the strategic utilization of customer transaction data, resulting in sub-optimal resource allocation, extended queues, and inefficient service delivery. 
 
