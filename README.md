@@ -1,6 +1,8 @@
 # ATM-Transactions Project
 
 ### Customer Transactions Behaviour for ATM Optimization
+-------
+![](atm)
 
 #### _Introduction_
 In an era where digital transactions are widespread, understanding and optimizing customer behavior at ATMs is paramount.
