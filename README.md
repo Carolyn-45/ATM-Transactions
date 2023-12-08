@@ -39,7 +39,7 @@ This dataset comprises of a Transactions Table that contains transactions for fi
 Data cleaning and transformation are an important aspect of Data Analysis as it ensures accuracy and credibility of the insights generated from the data.
 For this, I first created a database in Postgres16 to host the various tables. I then examined each table for null values and errors. I noticed that some columns in the ATM Maintenance table had null values and I had to replace them with 'N/A' so as not to affect the integrity  of the data.
 I then performed data transformation tasks such as defining the data types for each column, appending the transformation data and creating a calendar table.
-![](calendartable.jpg)
+![](calendartable.jpeg)
 
 #### _Data Modelling_
 After this I made use of the import storage mode to bring the dataset into Power BI. I proceeded to establish relationships between the tables. I created a snowflake schema as shown below;
