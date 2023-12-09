@@ -4,14 +4,14 @@
 -------
 ![](atm-1524870_1280.jpg)
 
-#### _Introduction_
+#### **_Introduction_**
 In an era where digital transactions are widespread, understanding and optimizing customer behavior at ATMs is paramount.
 
 This project explores customer transactions behavior to optimize ATM operations. Leveraging data analytics techniques, I delve into patterns, peak usage times, and transaction types. The insights gained aim to enhance ATM placement, resource allocation, and overall efficiency by striving to elevate the ATM experience through informed decision-making and data-driven strategies. 
 
 Join me in harnessing the power of data to revolutionize ATM efficiency and convenience.
 
-#### _Target Audience_
+#### **_Target Audience_**
 This project is tailored to those seeking data-driven insights to enhance user experiences, streamline operations, and strategically allocate resources for improved efficiency.
 This includes;
 + **Branch Managers**: Responsible for optimizing ATM services at specific locations.
@@ -19,7 +19,7 @@ This includes;
 + **Executive Decision-makers**: Guiding strategic resource allocation based on data-driven recommendations.
 
 
-#### _Problem Statement_
+#### **_Problem Statement_**
 ATM operations lack the strategic utilization of customer transaction data, resulting in sub-optimal resource allocation, extended queues, and inefficient service delivery. 
 
 In this  project I intend to answer the following questions;
@@ -34,16 +34,16 @@ In this  project I intend to answer the following questions;
 + How does transaction frequency compare to the transaction revenue generated in the 5 states
 + Which ATMs have the highest and lowest utilization
 
-#### _Tools Used_
+#### **_Tools Used_**
 1. SQL; Postgres16
 2. Microsoft Power BI
 
-#### _Data Collection_
+#### **_Data Collection_**
 The dataset I used in this project was provided by the DataKliq team. 
 
 This dataset comprises of a Transactions Table that contains transactions for five states of Nigeria. In addition, the dataset also contains Customer, Transaction type, Hour, Calendar, ATM Location and ATM Maintenance tables that provide more information on the Transactions Table.
 
-#### _Data Cleaning and Transformation_
+#### **_Data Cleaning and Transformation_**
 Data cleaning and transformation are an important aspect of Data Analysis as it ensures accuracy and credibility of the insights generated from the data.
 For this, I first created a database in Postgres16 to host the various tables. I then examined each table for null values and errors. I noticed that some columns in the ATM Maintenance table had null values and I had to replace them with 'N/A' so as not to affect the integrity  of the data.
 I then performed data transformation tasks such as defining the data types for each column, appending the transformation data and creating a calendar table.
@@ -52,12 +52,12 @@ I then performed data transformation tasks such as defining the data types for e
   <img src="calendartable.jpeg" width="400" height="600" />
 </p>
 
-#### _Data Modelling_
+#### **_Data Modelling_**
 After this I made use of the import storage mode to bring the dataset into Power BI. I proceeded to establish relationships between the tables. I created a snowflake schema as shown below;
 ![](data_model.png)
 
 
-#### _Key Findings_
+#### **_Key Findings_**
 I took a deep dive into the data and uncovered the following interesting insights;
 
 | **ATMs Overview Report**         | **Customer Transactions**         |
@@ -85,7 +85,7 @@ I took a deep dive into the data and uncovered the following interesting insight
     transaction frequency of 588. Federal City Territory has generated the lowest transaction revenue of 8.6B yet it reports a 
     transaction frequency of 2126.
 
-#### _Recommendations_
+#### **_Recommendations_**
 1. Given that Lagos has the highest transaction revenue, the bank can optimize the placement of ATMs in locations with high foot traffic 
    or areas with a dense population to maximize ATM utilization.
    
@@ -105,7 +105,7 @@ I took a deep dive into the data and uncovered the following interesting insight
    paying attention to common complaints or concerns mentioned by customers and use this information to prioritize areas for improvement.
 
 
-#### _Conclusion_
+#### **_Conclusion_**
 In the pursuit of optimizing ATM services, this project exemplifies the transformative power of data analysis. By decoding customer transactions, we pave the way for strategic enhancements that promise a more streamlined, cost-effective, and user-friendly ATM experience. The insights gained mark not just a conclusion but a stepping stone towards a data-informed evolution in banking services.
 
 
