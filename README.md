@@ -1,4 +1,4 @@
-# ATM-Transactions Project
+# ATM Transactions Project
 
 ### Customer Transactions Behaviour for ATM Optimization
 -------
