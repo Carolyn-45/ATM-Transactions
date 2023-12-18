@@ -12,7 +12,7 @@ This project explores customer transactions behavior to optimize ATM operations.
 Join me in harnessing the power of data to revolutionize ATM efficiency and convenience.
 
 #### **_Target Audience_**
-This project is tailored to those seeking data-driven insights to enhance user experiences, streamline operations, and strategically allocate resources for improved efficiency.
+This project is tailored for those seeking data-driven insights to enhance ATM user experiences, streamline operations, and strategically allocate resources for improved efficiency.
 This includes;
 + **Branch Managers**: Responsible for optimizing ATM services at specific locations.
 + **Data Analysts in Finance**: Utilizing transaction data to derive actionable insights.
@@ -60,9 +60,8 @@ After this I made use of the import storage mode to bring the dataset into Power
 #### **_Key Findings_**
 I took a deep dive into the data and uncovered the following interesting insights;
 
-| **ATMs Overview Report**         | **Customer Transactions**         |
-|----------------------------------|-----------------------|
-| ![Image 1](atm_transactions.png) | ![Image 2](customer_transactions.png) |
+![](atm_transactions.png)
+
 
 1. The total number of transactions for all the 5 states is 6.52M with Lagos leading with 2.59M and the least being from Federal City 
    Territory with 537,950 transactions.
@@ -83,7 +82,9 @@ I took a deep dive into the data and uncovered the following interesting insight
 10. In overall, the average transaction success rate for the 131 ATMs is 50.8% while the average error is 1.1%.
 11. Although ATMs in Lagos state have generated the highest transaction revenue of 43.9B customers from that state report the lowest 
     transaction frequency of 588. Federal City Territory has generated the lowest transaction revenue of 8.6B yet it reports a 
-    transaction frequency of 2126.
+transaction frequency of 2126.
+
+![](customer_transactions.png)
 
 #### **_Recommendations_**
 1. Given that Lagos has the highest transaction revenue, the bank can optimize the placement of ATMs in locations with high foot traffic 
@@ -92,7 +93,7 @@ I took a deep dive into the data and uncovered the following interesting insight
 2. Since withdrawals are the most common transaction type, the bank should ensure that cash replenishment cycles are done regularly so 
    that ATMs are well-stocked with cash to meet customer demands. 
 3. It is very clear that the peak transaction hours are between 4pm and 6pm. Therefore, DataKliq Bank should ensure high ATM availability 
-   during these busy periods to meet customer demand. This can be possible through the utilization of real-time monitoring systems to 
+   during these busy periods to meet customer demand, especially in areas with high students traffic. This can be possible through the utilization of real-time monitoring systems to 
    track the status of the ATMs continuously. This would then allow the Bank to respond to any malfunctions or issues that may arise 
    during the peak hours.
 4. Kano and Lagos states report the lowest transaction frequencies. Hence, the Bank should conduct targeted marketing or promotional 
@@ -108,6 +109,7 @@ I took a deep dive into the data and uncovered the following interesting insight
 #### **_Conclusion_**
 In the pursuit of optimizing ATM services, this project exemplifies the transformative power of data analysis. By decoding customer transactions, we pave the way for strategic enhancements that promise a more streamlined, cost-effective, and user-friendly ATM experience. The insights gained mark not just a conclusion but a stepping stone towards a data-informed evolution in banking services.
 
+_**Thank you for reading through this project!**_
 
 
 
