@@ -7,7 +7,7 @@
 #### **_Introduction_**
 In an era where digital transactions are widespread, understanding and optimizing customer behavior at ATMs is paramount.
 
-This project explores customer transactions behavior to optimize ATM operations. Leveraging data analytics techniques, I delve into patterns, peak usage times, and transaction types. The insights gained aim to enhance ATM placement, resource allocation, and overall efficiency by striving to elevate the ATM experience through informed decision-making and data-driven strategies. 
+This project explores customer transactions behavior to optimize ATM operations. Leveraging data analytics techniques, I delve into ATM usage patterns, peak usage times, and transaction types. The insights gained aim to enhance ATM placement, resource allocation, and overall efficiency by striving to elevate the ATM experience through informed decision-making and data-driven strategies. 
 
 Join me in harnessing the power of data to revolutionize ATM efficiency and convenience.
 
